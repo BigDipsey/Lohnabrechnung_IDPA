@@ -121,10 +121,10 @@ function MitarbeiterBearbeiten() {
           onChange={(e) =>
             setMitarbeiterData({
               ...mitarbeiterData,
-              Kinderzahl: e.target.value,
+              Kinderanzahl: e.target.value,
             })
           }
-          placeholder="Kinderzahl"
+          placeholder="Kinderanzahl"
         />
       </div>
 
