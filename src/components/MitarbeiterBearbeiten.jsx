@@ -81,7 +81,7 @@ function MitarbeiterBearbeiten() {
       </div>
 
       <div>
-        <label>Kinderanzahl:</label>
+        <label>Geburtsdatum:</label>
         <input
           className="input-group"
           type="date"
@@ -113,7 +113,7 @@ function MitarbeiterBearbeiten() {
       </div>
 
       <div>
-        <label>Geburtsdatum:</label>
+        <label>Kinderanzahl:</label>
         <input
           className="input-group"
           type="number"
