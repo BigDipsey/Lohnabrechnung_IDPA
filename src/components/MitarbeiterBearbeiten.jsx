@@ -84,15 +84,15 @@ function MitarbeiterBearbeiten() {
         <label>Kinderanzahl:</label>
         <input
           className="input-group"
-          type="number"
-          value={mitarbeiterData.Kinderanzahl}
+          type="date"
+          value={mitarbeiterData.Geburtsdatum}
           onChange={(e) =>
             setMitarbeiterData({
               ...mitarbeiterData,
-              Kinderanzahl: e.target.value,
+              Geburtsdatum: e.target.value,
             })
           }
-          placeholder="Kinderanzahl"
+          placeholder="Geburtsdatum"
         />
       </div>
 
@@ -116,15 +116,15 @@ function MitarbeiterBearbeiten() {
         <label>Geburtsdatum:</label>
         <input
           className="input-group"
-          type="date"
-          value={mitarbeiterData.Geburtsdatum}
+          type="number"
+          value={mitarbeiterData.Kinderzahl}
           onChange={(e) =>
             setMitarbeiterData({
               ...mitarbeiterData,
-              Geburtsdatum: e.target.value,
+              Kinderzahl: e.target.value,
             })
           }
-          placeholder="Geburtsdatum"
+          placeholder="Kinderzahl"
         />
       </div>
 
