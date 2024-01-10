@@ -1,5 +1,10 @@
 # React + Vite
 
+Anleitung des Programmes 
+
+1) Das Gode herunterladen
+2) Das 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
