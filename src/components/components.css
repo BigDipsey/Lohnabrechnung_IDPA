@@ -105,3 +105,18 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+.buchungsaetze-container {
+  margin-top: 10px;
+}
+
+
+.buchungssatz {
+  margin-bottom: 5px; 
+}
+
+.betrag {
+  margin-left: 10px; 
+}
+
