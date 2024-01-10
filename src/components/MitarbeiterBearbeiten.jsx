@@ -92,7 +92,7 @@ function MitarbeiterBearbeiten() {
               Geburtsdatum: e.target.value,
             })
           }
-          placeholder="Kinderanzahl"
+          placeholder="Geburtsdatum"
         />
       </div>
 
@@ -124,7 +124,7 @@ function MitarbeiterBearbeiten() {
               Kinderzahl: e.target.value,
             })
           }
-          placeholder="Geburtsdatum"
+          placeholder="Kinderzahl"
         />
       </div>
 
