@@ -2,11 +2,11 @@
 
 ## Anleitung zum Programm:
 
-1. Lade den Code herunter.
-2. Entpacke das heruntergeladene ZIP.
-3. Öffne das ZIP in Visual Studio Code.
-4. Navigiere im Terminal zum Ordner "Lohnabrechnung" und führe den Befehl `npm i` aus.
-5. Gib nun im Terminal `npm run dev` ein und öffne den bereitgestellten Link.
+1. Lade Sie den Code herunter.
+2. Entpacke Sie das heruntergeladene ZIP.
+3. Öffne das Code.
+4. Navigieren Sie im Terminal zum Ordner "Lohnabrechnung_IDPA-main" und führen Sie den Befehl `npm i` aus.
+5. Geben Sie nun im Terminal `npm run dev` ein und öffne den bereitgestellten Link.
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
