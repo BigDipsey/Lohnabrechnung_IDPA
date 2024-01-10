@@ -84,7 +84,7 @@ function MitarbeiterBearbeiten() {
         <label>Geburtsdatum:</label>
         <input
           className="input-group"
-          type="number"
+          type="date"
           value={mitarbeiterData.Geburtsdatum}
           onChange={(e) =>
             setMitarbeiterData({
@@ -116,7 +116,7 @@ function MitarbeiterBearbeiten() {
         <label>Kinderzahl:</label>
         <input
           className="input-group"
-          type="date"
+          type="number"
           value={mitarbeiterData.Kinderzahl}
           onChange={(e) =>
             setMitarbeiterData({
