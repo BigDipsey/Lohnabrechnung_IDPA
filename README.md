@@ -1,9 +1,13 @@
 # React + Vite
 
-Anleitung des Programmes 
+## Anleitung zum Programm:
 
-1) Das Gode herunterladen
-2) Das 
+1. Lade den Code herunter.
+2. Entpacke das heruntergeladene ZIP.
+3. Öffne das ZIP in Visual Studio Code.
+4. Navigiere im Terminal zum Ordner "Lohnabrechnung" und führe den Befehl `npm i` aus.
+5. Gib nun im Terminal `npm run dev` ein und öffne den bereitgestellten Link.
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
