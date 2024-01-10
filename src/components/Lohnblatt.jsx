@@ -44,40 +44,40 @@ function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
         <div>
           <b>Arbeitgeber;</b>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {ahvIvEo}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {ahvIvEo.toFixed(2)}
           </div>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
           </div>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {pensionskasse}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {pensionskasse.toFixed(2)}
           </div>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
           </div>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {nbu}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {nbu.toFixed(2)}
           </div>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {kinderzulage}
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {kinderzulage.toFixed(2)}
           </div>
           <div>
-            Lohnaufwand - Verbindlichkeit Sozialversicherung {ahvIvEo}
+            Lohnaufwand - Verbindlichkeit Sozialversicherung {ahvIvEo.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv}
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {pensionskasse}
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {pensionskasse.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv}
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {nbu}
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {nbu.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand -  Bank {nettoLohn}
+          Lohnaufwand -  Bank {nettoLohn.toFixed(2)}
           </div>
         </div>
       )}
