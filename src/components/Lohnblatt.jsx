@@ -71,7 +71,7 @@ function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
           Lohnaufwand - Verbindlichkeit Sozialversicherung {pensionskasse.toFixed(2)}
           </div>
           <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)} //
           </div>
           <div>
           Lohnaufwand - Verbindlichkeit Sozialversicherung {nbu.toFixed(2)}
