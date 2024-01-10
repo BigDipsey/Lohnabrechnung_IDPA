@@ -40,47 +40,53 @@ function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
       />
       <button onClick={zeigeBuchungsaetze}>Buchungsätze Anzeigen</button>
       <button onClick={drucken}>Drucken</button>
-      {zeigBuchungsaetze && (
-        <div>
-          <b>Arbeitgeber;</b>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {ahvIvEo.toFixed(2)}
-          </div>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
-          </div>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {pensionskasse.toFixed(2)}
-          </div>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
-          </div>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {nbu.toFixed(2)}
-          </div>
-          <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {kinderzulage.toFixed(2)}
-          </div>
-          <div>
-            Lohnaufwand - Verbindlichkeit Sozialversicherung {ahvIvEo.toFixed(2)}
-          </div>
-          <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)}
-          </div>
-          <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {pensionskasse.toFixed(2)}
-          </div>
-          <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv.toFixed(2)} //
-          </div>
-          <div>
-          Lohnaufwand - Verbindlichkeit Sozialversicherung {nbu.toFixed(2)}
-          </div>
-          <div>
-          Lohnaufwand -  Bank {nettoLohn.toFixed(2)}
-          </div>
-        </div>
-      )}
+     {zeigBuchungsaetze && (
+  <div className="buchungsaetze-container">
+    <b className="buchungssaetze-title">Arbeitgeber;</b>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{ahvIvEo.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{alv.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{pensionskasse.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{alv.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{nbu.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{kinderzulage.toFixed(2)}</span>
+    </div>
+
+    {/* Semantisches Leerzeichen */}
+
+    <div className="buchungssatz">
+      Lohnaufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{ahvIvEo.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Lohnaufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{alv.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Lohnaufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{pensionskasse.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Lohnaufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{alv.toFixed(2)}</span>
+    </div>
+    <div className="buchungssatz">
+      Lohnaufwand - Verbindlichkeit Sozialversicherung <span className="betrag">{nbu.toFixed(2)}</span>
+    </div>
+
+    {/* Semantisches Leerzeichen */}
+
+    <div className="buchungssatz">
+      Lohnaufwand - Bank <span className="betrag">{nettoLohn.toFixed(2)}</span>
+    </div>
+  </div>
+)}
     </div>
   )
 }
