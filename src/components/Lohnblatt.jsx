@@ -22,7 +22,7 @@ function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
     content: () => ref.current,
   })
 
-  return (
+ return (
     <div className="gehalts-tabelle-container">
       <h3>Gehaltsaufschlüsselung</h3>
       <GehaltsTabelle
@@ -44,10 +44,41 @@ function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
         <div>
           <b>Arbeitgeber;</b>
           <div>
-            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {ahvIvEo}
           </div>
-          <b>Arbeitnehmer:</b>
-          <div>Lohnaufwand - Verbindlichkeit Sozialversicherung</div>
+          <div>
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv}
+          </div>
+          <div>
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {pensionskasse}
+          </div>
+          <div>
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {alv}
+          </div>
+          <div>
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {nbu}
+          </div>
+          <div>
+            Sozial Versicherungs Aufwand - Verbindlichkeit Sozialversicherung {kinderzulage}
+          </div>
+          <div>
+            Lohnaufwand - Verbindlichkeit Sozialversicherung {ahvIvEo}
+          </div>
+          <div>
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv}
+          </div>
+          <div>
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {pensionskasse}
+          </div>
+          <div>
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {alv}
+          </div>
+          <div>
+          Lohnaufwand - Verbindlichkeit Sozialversicherung {nbu}
+          </div>
+          <div>
+          Lohnaufwand -  Bank {nettoLohn}
+          </div>
         </div>
       )}
     </div>
