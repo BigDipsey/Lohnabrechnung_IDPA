@@ -117,7 +117,7 @@ function MitarbeiterBearbeiten() {
         <input
           className="input-group"
           type="number"
-          value={mitarbeiterData.Kinderzahl}
+          value={mitarbeiterData.Kinderanzahl}
           onChange={(e) =>
             setMitarbeiterData({
               ...mitarbeiterData,
