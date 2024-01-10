@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import './components.css'
-import GehaltsTabelle from './GehaltsTabelle.jsx'
+import GehaltsTabelle from './Gehaltstabelle.jsx'
 import { useReactToPrint } from 'react-to-print'
 
 function Lohnblatt({ bruttoLohn, kinderanzahl, mitarbeitername }) {
