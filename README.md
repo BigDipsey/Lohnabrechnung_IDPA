@@ -8,6 +8,8 @@
 4. Navigieren Sie im Terminal zum Ordner "Lohnabrechnung_IDPA-main" und führen Sie den Befehl `npm i` aus.
 5. Geben Sie nun im Terminal `npm run dev` ein und öffnen Sie den bereitgestellten Link.
 
+## Link zur Webseite:
+https://idpa-lohnabrechnung.netlify.app/  
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
