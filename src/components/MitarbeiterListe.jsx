@@ -57,9 +57,9 @@ function MitarbeiterListe() {
           {mitarbeiter.map((mitarbeiter) => (
             <li className='mitarbeiter-box' key={mitarbeiter._id}>
               <div><strong>Name:</strong> {mitarbeiter.MitarbeiterName}</div>
-              <div><strong>Geburtsdatum:</strong> {mitarbeiter.Geburtsdatum}</div>
+              <div><strong>Anzahl der Kinder:</strong> {mitarbeiter.Kinderzahl}</div>
               <div><strong>Bruttogehalt:</strong> {mitarbeiter.BruttoLohn}</div>
-              <div><strong>Anzahl der Kinder:</strong> {mitarbeiter.Kinderanzahl}</div>
+              <div><strong>Geburtsdatum:</strong> {mitarbeiter.Geburtsdatum}</div>
               <div className="button-container">
                 <Link to={`/mitarbeiterbearbeiten/${mitarbeiter._id}`}>
                   <FaEdit className="icon edit-icon" />

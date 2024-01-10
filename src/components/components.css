@@ -1,4 +1,3 @@
-/* Stil für den Gehaltsrechner-Container */
 .gehalt-calculator-container {
   display: flex;
   flex-direction: column;
@@ -14,7 +13,6 @@
   margin-bottom: 20px;
 }
 
-/* Stile für Inputfelder mit Überschriften */
 .gehalt-calculator-container input,
 .input-group {
   width: 90%;
@@ -30,7 +28,6 @@
   display: block;
 }
 
-/* Tabelle in der Mitte zentrieren */
 .table {
   margin-left: auto;
   margin-right: auto;
@@ -53,7 +50,6 @@
   color: white;
 }
 
-/* Stile für die Gehalts-Tabelle */
 .gehalts-tabelle-container {
   text-align: center;
 }
@@ -81,9 +77,9 @@
   margin-bottom: 20px;
   list-style-type: none;
   position: relative;
-  width: 100%; /* Set to full width of the container */
-  max-width: 600px; /* Or any maximum width you desire */
-  box-sizing: border-box; /* Ensure padding is included in the width */
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
 }
 
 .mitarbeiter-box div {
@@ -100,23 +96,74 @@
 
 .icon {
   cursor: pointer;
-  width: 24px; /* Example size for icons */
+  width: 24px;
   height: 24px;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-
 .buchungsaetze-container {
   margin-top: 10px;
 }
 
-
 .buchungssatz {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .betrag {
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
+.dropdown-container {
+  background-color: #f8f9fa;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.lohnvergleich-button:hover {
+  background-color: #e2e6ea;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+button {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
